@@ -6,7 +6,7 @@
 <style>   
 Body {  
   font-family: Calibri, Helvetica, sans-serif;  
-  background-color: lightblack;  
+  background-color: black;  
 }  
 button {   
        background-color: #4CAF50;   
@@ -25,7 +25,7 @@ button {
         margin: 8px 0;  
         padding: 12px 20px;   
         display: inline-block;   
-        border: 2px solid lightblue;   
+        border: 2px solid lightgrey;   
         box-sizing: border-box;   
     }  
  button:hover {   
@@ -40,7 +40,7 @@ button {
      
  .container {   
         padding: 25px;   
-        background-color: royalblue;  
+        background-color: grey;  
     }   
 </style>   
 </head>    
@@ -48,13 +48,13 @@ button {
     <center> <h1> Login</h1> </center>   
     <form>  
         <div class="container">   
-            <label>Username : </label>   
+            <label>Username</label>   
             <input type="text" placeholder="Username" name="username" required>  
-            <label>Password : </label>   
+            <label>Password</label>   
             <input type="password" placeholder="Password" name="password" required>  
             <button type="submit">Login</button>   
             <input type="checkbox" checked="checked"> Remember me   
-            <button type="button" class="cancelbtn"> Cancel</button>   
+            <!-- <button type="button" class="cancelbtn"> Cancel</button>   -->
             Forgot <a href="#"> password? </a>   
         </div>   
     </form>     
